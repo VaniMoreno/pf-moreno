@@ -1,0 +1,123 @@
+/*Estilos Recetas */
+@import "../utilidades/extend";
+@import "../utilidades/mixin";
+@import "../utilidades/variables";
+
+.main-recetas{
+    div{
+        h1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 80px;
+            color: $color-principal;   
+
+            @include tablet{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-top: 60px;
+            }
+            @include mobile {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-top: 30px;  
+            }
+        }
+        .descripcion-recetas{
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            padding-left: 150px;
+            padding-right: 150px;
+            text-align: center;
+
+            @include tablet {
+                display: flex;
+                justify-content: center;
+                margin-top: 15px;
+                padding-left: 90px;
+                padding-right: 90px;
+                text-align: center;
+            }
+            @include mobile {
+                display: flex;
+                justify-content: center;
+                margin-top: 15px;
+                padding-left: 40px;
+                padding-right: 40px;
+                text-align: center;
+            }
+        }
+    }
+    .recetas{
+        margin-top: 80px;
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        animation-name: animation;
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+
+        @include tablet {
+            margin-top: 40px;
+            display: flex;
+            justify-content:center;
+            flex-wrap: wrap;
+        }
+        @include mobile{
+            margin-top: 20px;
+            display: flex;
+            justify-content:center;
+            flex-wrap: wrap;
+        }
+    }
+    
+    @keyframes animation {
+        from {
+            position: relative;
+            bottom: -30px;
+            opacity: 0;
+        }
+    
+        to {
+            position: relative;
+            bottom: 0;
+            opacity: 1;
+        }
+
+        }
+        .card{
+            margin: 15px;
+            max-width: 50%;
+            padding: 15px;
+            width: 25%;
+            text-align: center;
+            border-radius: 20px;
+            border-color: rgba(249, 114, 93, 0.523);
+            background-color: rgba(249, 114, 93, 0.523);
+            box-shadow: 15px;
+
+            @include tablet {
+                margin: 15px;
+                padding: 15px;
+                text-align: center;
+                border-radius: 20px;
+                border-color: rgba(249, 114, 93, 0.523);
+                background-color: rgba(249, 114, 93, 0.523);
+                box-shadow: 15px;
+            }
+            @include mobile {
+                margin: 15px;
+                padding: 20px;
+                text-align: center;
+                border-radius: 20px;
+                border-color: rgba(249, 114, 93, 0.523);
+                background-color: rgba(249, 114, 93, 0.523);
+                box-shadow: 15px; 
+            }
+        
+        }
+    }
+

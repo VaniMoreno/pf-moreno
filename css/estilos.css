@@ -1,0 +1,439 @@
+@charset "UTF-8";
+/* Estilos Quienes somos*/
+.main-nosotros section .pregunta-nosotros {
+  margin: 20px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  grid-template-rows: auto;
+  align-items: center; }
+  @media screen and (min-width: 768px) and (max-width: 1300px) {
+    .main-nosotros section .pregunta-nosotros {
+      display: flex;
+      flex-direction: column; } }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .main-nosotros section .pregunta-nosotros {
+      display: flex;
+      flex-direction: column; } }
+  .main-nosotros section .pregunta-nosotros img {
+    border-radius: 20px; }
+    @media screen and (min-width: 768px) and (max-width: 1300px) {
+      .main-nosotros section .pregunta-nosotros img {
+        margin: 1rem; } }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      .main-nosotros section .pregunta-nosotros img {
+        max-width: 25rem;
+        margin: 0.5rem; } }
+  @media screen and (min-width: 768px) and (max-width: 1300px) {
+    .main-nosotros section .pregunta-nosotros h2 {
+      margin: 25px; } }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .main-nosotros section .pregunta-nosotros h2 {
+      margin: 0.5rem; } }
+  @media screen and (min-width: 768px) and (max-width: 1300px) {
+    .main-nosotros section .pregunta-nosotros p {
+      align-content: center;
+      text-align: center;
+      margin: 1rem; } }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .main-nosotros section .pregunta-nosotros p {
+      align-content: center;
+      text-align: center;
+      margin: 1rem; } }
+
+/*Estilos Contacto*/
+.contenedor-contacto {
+  background-image: url(../img/fondo-contacto.png);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  @media screen and (min-width: 768px) and (max-width: 1300px) {
+    .contenedor-contacto {
+      background-size: 200%; } }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .contenedor-contacto {
+      background-size: 150%;
+      background-repeat: repeat-y; } }
+
+.main-contacto h1 {
+  margin: 30px;
+  text-align: center;
+  color: #950107;
+  font-size: 50px; }
+
+.main-contacto form fieldset {
+  margin: auto;
+  padding: 3%;
+  text-align: left;
+  width: 60%;
+  background-color: rgba(249, 114, 93, 0.656);
+  border-radius: 3rem;
+  align-items: center; }
+  .main-contacto form fieldset legend {
+    text-align: center; }
+    @media screen and (min-width: 768px) and (max-width: 1300px) {
+      .main-contacto form fieldset legend {
+        font-size: large; } }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      .main-contacto form fieldset legend {
+        font-size: medium;
+        margin: 1rem;
+        width: 100%;
+        padding: 2%; } }
+  .main-contacto form fieldset div label {
+    margin: 10px; }
+    .main-contacto form fieldset div label input {
+      margin: 15px;
+      width: 30%;
+      padding: 20px;
+      border-radius: 5px;
+      font-size: 18px;
+      outline: none; }
+  .main-contacto form fieldset div input {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+    height: 2rem; }
+    @media screen and (min-width: 768px) and (max-width: 1300px) {
+      .main-contacto form fieldset div input {
+        display: flex;
+        flex-wrap: wrap;
+        width: 20rem;
+        height: 2rem; } }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      .main-contacto form fieldset div input {
+        display: flex;
+        flex-wrap: wrap;
+        width: 10rem;
+        height: 2rem; } }
+  .main-contacto form fieldset div .campo-msje {
+    height: 4rem; }
+  .main-contacto form fieldset div .boton-contacto {
+    margin: 1rem;
+    width: fit-content;
+    justify-items: center;
+    padding: 0.2rem; }
+
+/*Estilos Recetas */
+.main-recetas div h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+  color: #950107; }
+  @media screen and (min-width: 768px) and (max-width: 1300px) {
+    .main-recetas div h1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 60px; } }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .main-recetas div h1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px; } }
+
+.main-recetas div .descripcion-recetas {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center; }
+  @media screen and (min-width: 768px) and (max-width: 1300px) {
+    .main-recetas div .descripcion-recetas {
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+      padding-left: 90px;
+      padding-right: 90px;
+      text-align: center; } }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .main-recetas div .descripcion-recetas {
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+      padding-left: 40px;
+      padding-right: 40px;
+      text-align: center; } }
+
+.main-recetas .recetas {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation-name: animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-out; }
+  @media screen and (min-width: 768px) and (max-width: 1300px) {
+    .main-recetas .recetas {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; } }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .main-recetas .recetas {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; } }
+
+@keyframes animation {
+  from {
+    position: relative;
+    bottom: -30px;
+    opacity: 0; }
+  to {
+    position: relative;
+    bottom: 0;
+    opacity: 1; } }
+
+.main-recetas .card {
+  margin: 15px;
+  max-width: 50%;
+  padding: 15px;
+  width: 25%;
+  text-align: center;
+  border-radius: 20px;
+  border-color: rgba(249, 114, 93, 0.523);
+  background-color: rgba(249, 114, 93, 0.523);
+  box-shadow: 15px; }
+  @media screen and (min-width: 768px) and (max-width: 1300px) {
+    .main-recetas .card {
+      margin: 15px;
+      padding: 15px;
+      text-align: center;
+      border-radius: 20px;
+      border-color: rgba(249, 114, 93, 0.523);
+      background-color: rgba(249, 114, 93, 0.523);
+      box-shadow: 15px; } }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .main-recetas .card {
+      margin: 15px;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+      border-color: rgba(249, 114, 93, 0.523);
+      background-color: rgba(249, 114, 93, 0.523);
+      box-shadow: 15px; } }
+
+/*Estilos receta única*/
+.main-recetaindv .receta-unica {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  .main-recetaindv .receta-unica div .imagen-receta-unica {
+    display: block;
+    margin: auto; }
+    @media screen and (min-width: 768px) and (max-width: 1300px) {
+      .main-recetaindv .receta-unica div .imagen-receta-unica {
+        max-width: 30rem; } }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      .main-recetaindv .receta-unica div .imagen-receta-unica {
+        max-width: 20rem; } }
+  .main-recetaindv .receta-unica div h2 {
+    margin: 15px;
+    color: #950107; }
+  .main-recetaindv .receta-unica div p {
+    padding-left: 20%;
+    padding-right: 20%; }
+
+.main-recetaindv .lista-ingredientes {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  @media screen and (min-width: 768px) and (max-width: 1300px) {
+    .main-recetaindv .lista-ingredientes {
+      margin: 10px; } }
+
+.main-recetaindv .pasos-receta {
+  margin: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+  display: flex;
+  justify-content: center;
+  text-align: left; }
+  @media screen and (min-width: 768px) and (max-width: 1300px) {
+    .main-recetaindv .pasos-receta {
+      padding-left: 10%;
+      padding-right: 10%; } }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .main-recetaindv .pasos-receta {
+      padding-left: 2%;
+      padding-right: 2%; } }
+  .main-recetaindv .pasos-receta ol ul {
+    font-weight: bold;
+    text-align: center; }
+  .main-recetaindv .pasos-receta ol .ul-nota {
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center; }
+
+.main-recetaindv div button {
+  margin: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #950107;
+  border-color: none;
+  color: antiquewhite;
+  display: flex;
+  align-items: center; }
+
+/*Estilos Index*/
+body section div .carousel-inner .carousel-item img {
+  filter: brightness(0.7); }
+
+body section div .carousel-inner .carousel-item div p {
+  font-size: x-large; }
+
+.main-inicio {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px; }
+  .main-inicio section {
+    align-items: center;
+    text-align: center; }
+    .main-inicio section img {
+      margin-top: 60px;
+      image-rendering: 40%;
+      object-fit: initial;
+      width: 40%;
+      height: 40%;
+      border-radius: 15px;
+      align-items: center; }
+    .main-inicio section h3 {
+      margin-top: 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #950107; }
+    .main-inicio section p {
+      padding: 15px 40px 80px 100px; }
+  .main-inicio .titulo-galeria h3 {
+    margin: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #950107; }
+    @media screen and (min-width: 768px) and (max-width: 1300px) {
+      .main-inicio .titulo-galeria h3 {
+        margin: 30px;
+        text-align: center; } }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      .main-inicio .titulo-galeria h3 {
+        margin: 30px;
+        text-align: center; } }
+  .main-inicio .galeria {
+    display: flex;
+    justify-content: center; }
+    @media screen and (min-width: 768px) and (max-width: 1300px) {
+      .main-inicio .galeria {
+        margin-left: 10rem;
+        margin-right: 10rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        justify-content: space-between; } }
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      .main-inicio .galeria {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        display: grid;
+        grid-template-columns: 0.8fr;
+        grid-template-rows: 0.8fr;
+        align-content: center; } }
+    .main-inicio .galeria div {
+      margin: 15px;
+      padding: 15px;
+      width: 25%;
+      text-align: center;
+      border-radius: 20px;
+      border-color: rgba(103, 103, 103, 0.523);
+      background-color: rgba(103, 103, 103, 0.523);
+      box-shadow: 15px; }
+      @media screen and (min-width: 768px) and (max-width: 1300px) {
+        .main-inicio .galeria div {
+          margin: 15px;
+          padding: 15px;
+          width: 30rem;
+          text-align: center;
+          border-radius: 20px;
+          border-color: rgba(103, 103, 103, 0.523);
+          background-color: rgba(103, 103, 103, 0.523);
+          box-shadow: 15px;
+          align-items: center; } }
+      @media screen and (min-width: 320px) and (max-width: 768px) {
+        .main-inicio .galeria div {
+          margin: 15px;
+          padding: 15px;
+          width: 20rem;
+          text-align: center;
+          border-radius: 10px;
+          border-color: rgba(103, 103, 103, 0.523);
+          background-color: rgba(103, 103, 103, 0.523);
+          box-shadow: 15px;
+          align-items: center; } }
+      .main-inicio .galeria div img {
+        margin: 15px;
+        padding: 15px;
+        width: 18rem;
+        border-radius: 20%; }
+        @media screen and (min-width: 320px) and (max-width: 768px) {
+          .main-inicio .galeria div img {
+            width: 250px; } }
+      .main-inicio .galeria div h4 {
+        margin-bottom: 10px; }
+      .main-inicio .galeria div p {
+        margin: 10px; }
+
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+/* Estilos Header*/
+header {
+  background-color: #950107;
+  color: white; }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    background: none;
+    color: whitesmoke;
+    border-color: none;
+    text-decoration: none; }
+    header nav ul li {
+      display: flex;
+      align-items: flex-end;
+      background-color: #cc373c;
+      padding: 5px;
+      border-radius: 15px;
+      color: whitesmoke;
+      border-color: none;
+      text-decoration: none; }
+      header nav ul li .dropdown-menu {
+        background: none;
+        margin: 10px;
+        border-color: none;
+        color: azure;
+        text-decoration: none; }
+        header nav ul li .dropdown-menu .dropdown-item {
+          background-color: #ff7d81;
+          border-radius: 15px;
+          color: #242424;
+          border-color: none;
+          text-decoration: none; }
+
+/*Estilos footer*/
+footer {
+  margin-top: 300px;
+  padding: 50px;
+  color: white;
+  background-color: #950107; }

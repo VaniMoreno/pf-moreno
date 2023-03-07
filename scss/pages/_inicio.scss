@@ -1,0 +1,145 @@
+/*Estilos Index*/
+@import "../utilidades/extend";
+@import "../utilidades/mixin";
+@import "../utilidades/variables";
+
+body{
+    section{
+        div{
+           .carousel-inner{
+            .carousel-item{
+                img{
+                    filter: brightness(0.7);
+                }
+                div{
+                    p{
+                        font-size: x-large;
+                    }
+                }
+            }
+           }
+        }
+    }
+}
+
+.main-inicio{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    section{
+            align-items: center;
+            text-align: center;
+            img{
+                margin-top: 60px;
+                image-rendering: 40%;
+                object-fit: initial;
+                width: 40%;
+                height: 40%;
+                border-radius: 15px;
+                align-items: center;
+            }
+            h3{
+                margin-top: 30px;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: $color-principal;
+            }
+            p{
+                padding: 15px 40px 80px 100px;
+            }
+    }
+
+    .titulo-galeria{
+        h3{
+            margin: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: $color-principal;
+
+            @include tablet{
+                margin: 30px;
+                text-align: center;
+            }
+            @include mobile{
+                margin: 30px;
+                text-align: center;
+            }
+        }
+    }  
+    .galeria{
+        display: flex;
+        justify-content: center;
+
+        @include tablet{
+            margin-left: 10rem;
+            margin-right: 10rem;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        @include mobile{
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            display: grid;
+            grid-template-columns: 0.8fr;
+            grid-template-rows: 0.8fr;
+            align-content: center;
+        }
+        div{
+            margin: 15px;
+            padding: 15px;
+            width: 25%;
+            text-align: center;
+            border-radius: 20px;
+            border-color: rgba(103, 103, 103, 0.523);
+            background-color: rgba(103, 103, 103, 0.523);
+            box-shadow: 15px;
+
+            @include tablet{
+                margin: 15px;
+                padding: 15px;
+                width: 30rem;
+                text-align: center;
+                border-radius: 20px;
+                border-color: rgba(103, 103, 103, 0.523);
+                background-color: rgba(103, 103, 103, 0.523);
+                box-shadow: 15px;
+                align-items: center;
+            }
+
+            @include mobile{
+                margin: 15px;
+                padding: 15px;
+                width: 20rem;
+                text-align: center;
+                border-radius: 10px;
+                border-color: rgba(103, 103, 103, 0.523);
+                background-color: rgba(103, 103, 103, 0.523);
+                box-shadow: 15px;
+                align-items: center;
+            }
+
+
+            img{
+                margin: 15px;
+                padding: 15px;
+                width: 18rem;
+                border-radius: 20%;
+
+                @include mobile{
+                    width: 250px;
+                }
+            }
+            h4{
+                margin-bottom: 10px;
+            }
+            p{
+                margin: 10px;
+            }
+        }
+    }
+}

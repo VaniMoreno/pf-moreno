@@ -1,0 +1,62 @@
+/* Estilos Quienes somos*/
+@import "../utilidades/extend";
+@import "../utilidades/mixin";
+@import "../utilidades/variables";
+
+.main-nosotros{
+
+    section{
+        .pregunta-nosotros{
+            margin: 20px;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 40% 20% 40%;
+            grid-template-rows: auto;
+            align-items: center;
+
+            @include tablet{
+                display: flex;
+                flex-direction: column;
+            }
+
+            @include mobile{
+                display: flex;
+                flex-direction: column;
+            }
+            img{
+                border-radius: 20px;
+
+                @include tablet{
+                    margin: 1rem;
+                }
+                @include mobile{
+                    max-width: 25rem;
+                    margin: 0.5rem;
+                }
+
+            }
+            h2{
+
+                @include tablet{
+                    margin: 25px;
+                }
+                @include mobile{
+                    margin: 0.5rem;
+                }
+            }
+            p{
+                @include tablet{
+                    align-content: center;
+                    text-align: center;
+                    margin: 1rem;
+                }
+                @include mobile{
+                    align-content: center;
+                    text-align: center;
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+
+}
