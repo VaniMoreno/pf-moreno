@@ -1,5 +1,5 @@
 {
-  "name": "preentrega-03-moreno",
+  "name": "pf-moreno",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VaniMoreno/preentrega-03-moreno.git"
+    "url": "git+https://github.com/VaniMoreno/pf-moreno.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VaniMoreno/preentrega-03-moreno/issues"
+    "url": "https://github.com/VaniMoreno/pf-moreno/issues"
   },
-  "homepage": "https://github.com/VaniMoreno/preentrega-03-moreno#readme",
+  "homepage": "https://github.com/VaniMoreno/pf-moreno#readme",
   "devDependencies": {
     "install": "^0.13.0",
     "node-sass": "^8.0.0",
-    "nodemon": "^2.0.20",
+    "nodemon": "^2.0.21",
     "npm": "^9.5.0"
   },
   "dependencies": {

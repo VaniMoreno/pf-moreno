@@ -400,13 +400,12 @@ body section div .carousel-inner .carousel-item div p {
 /* Estilos Header*/
 header {
   background-color: #950107;
-  color: white; }
+  text-transform: uppercase; }
   header nav ul {
     list-style: none;
     display: flex;
     gap: 60px;
     background: none;
-    color: whitesmoke;
     border-color: none;
     text-decoration: none; }
     header nav ul li {
@@ -415,21 +414,21 @@ header {
       background-color: #cc373c;
       padding: 5px;
       border-radius: 15px;
-      color: whitesmoke;
       border-color: none;
       text-decoration: none; }
-      header nav ul li .dropdown-menu {
-        background: none;
-        margin: 10px;
-        border-color: none;
-        color: azure;
-        text-decoration: none; }
-        header nav ul li .dropdown-menu .dropdown-item {
-          background-color: #ff7d81;
-          border-radius: 15px;
-          color: #242424;
+      header nav ul li .nav-link {
+        color: white; }
+        header nav ul li .nav-link .dropdown-menu {
+          background: none;
+          margin: 10px;
           border-color: none;
-          text-decoration: none; }
+          text-decoration: none;
+          color: white; }
+          header nav ul li .nav-link .dropdown-menu .dropdown-item {
+            background-color: #ff7d81;
+            border-radius: 15px;
+            border-color: none;
+            text-decoration: none; }
 
 /*Estilos footer*/
 footer {

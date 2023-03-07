@@ -27,7 +27,7 @@
 
 header{
         background-color: $color-principal;
-        color: $color-header-tipografia;
+        text-transform: uppercase;
 
         nav{
             ul{
@@ -35,32 +35,35 @@ header{
                 display: flex;
                 gap: 60px;
                 background: none;
-                color: whitesmoke;
                 border-color: none;
-                text-decoration: none; 
+                text-decoration: none;
                 li{
                     display: flex;
                     align-items: flex-end;
                     background-color: #cc373c;
                     padding: 5px;
                     border-radius: 15px;
-                    color: whitesmoke;
                     border-color: none;
                     text-decoration: none;
+                    
+                    .nav-link{
+                        color: $color-header-tipografia;
+                    
                     .dropdown-menu{
                         background: none;
                         margin: 10px;
                         border-color: none;
-                        color: azure;
                         text-decoration: none;
+                        color: $color-header-tipografia;
                         .dropdown-item{
                             background-color: #ff7d81;
                             border-radius: 15px;
-                            color: rgb(36, 36, 36);
                             border-color: none;
                             text-decoration: none;
                         }
-                    } 
+                    }
+                   }
+                   
                 }
             }
         }
