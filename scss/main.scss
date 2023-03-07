@@ -23,7 +23,7 @@
 
 }
 
-/* Estilos Header*/
+/* Estilos NAVBAR*/
 
 header{
         background-color: $color-principal;
@@ -49,22 +49,30 @@ header{
                     .nav-link{
                         color: $color-header-tipografia;
                     
-                    .dropdown-menu{
-                        background: none;
-                        margin: 10px;
-                        border-color: none;
-                        text-decoration: none;
-                        color: $color-header-tipografia;
-                        .dropdown-item{
-                            background-color: #ff7d81;
-                            border-radius: 15px;
-                            border-color: none;
-                            text-decoration: none;
-                        }
-                    }
                    }
                    
                 }
+                li{
+                    margin: 5px;
+                    background-color: none;
+                    border-color: none;
+                    
+                        .dropdown-menu{
+                            background-color: none;
+                            margin: 10px;
+                            border-color: none;
+                            text-decoration: none;
+                            color: $color-header-tipografia;
+
+                            .dropdown-item{
+                                background-color: #ff7d81;
+                                border-radius: 10px;
+                                border-color: none;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                
             }
         }
 
