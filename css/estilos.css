@@ -69,6 +69,12 @@
   background-color: rgba(249, 114, 93, 0.656);
   border-radius: 3rem;
   align-items: center; }
+  @media screen and (min-width: 768px) and (max-width: 1300px) {
+    .main-contacto form fieldset {
+      width: 60%; } }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .main-contacto form fieldset {
+      width: 90%; } }
   .main-contacto form fieldset legend {
     text-align: center; }
     @media screen and (min-width: 768px) and (max-width: 1300px) {
@@ -86,26 +92,30 @@
       margin: 15px;
       width: 30%;
       padding: 20px;
-      border-radius: 5px;
+      border-radius: 10px;
       font-size: 18px;
-      outline: none; }
+      outline: none;
+      border-color: #ffbbbb; }
   .main-contacto form fieldset div input {
     display: flex;
     flex-wrap: wrap;
-    width: 30rem;
-    height: 2rem; }
+    width: 80%;
+    height: 2rem;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    padding: 1rem; }
     @media screen and (min-width: 768px) and (max-width: 1300px) {
       .main-contacto form fieldset div input {
         display: flex;
         flex-wrap: wrap;
-        width: 20rem;
+        width: 80%;
         height: 2rem; } }
     @media screen and (min-width: 320px) and (max-width: 768px) {
       .main-contacto form fieldset div input {
         display: flex;
         flex-wrap: wrap;
-        width: 10rem;
-        height: 2rem; } }
+        height: 2rem;
+        width: 90%; } }
   .main-contacto form fieldset div .campo-msje {
     height: 4rem; }
   .main-contacto form fieldset div .boton-contacto {

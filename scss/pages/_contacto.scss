@@ -33,6 +33,15 @@
             background-color: $color-transparencia;
             border-radius: 3rem;
             align-items: center;
+
+            @include tablet{
+                width: 60%;
+            }
+
+            @include mobile{
+                width: 90%;
+            }
+
             legend{
                 text-align: center;
                 @include tablet{
@@ -52,9 +61,10 @@
                         margin: 15px;
                         width: 30%;
                         padding: 20px;
-                        border-radius: 5px;
+                        border-radius: 10px;
                         font-size: 18px;
                         outline: none;
+                        border-color: rgb(255, 187, 187);
                     }
                 }
             }
@@ -62,20 +72,24 @@
                 input{
                     display: flex;
                     flex-wrap:wrap;
-                    width: 30rem;
+                    width: 80%;
                     height: 2rem;
+                    border-radius: 10px;
+                    border-color: antiquewhite;
+                    padding: 1rem;
 
                     @include tablet{
                         display: flex;
                         flex-wrap:wrap;
-                        width: 20rem;
+                        width: 80%;
                         height: 2rem;
+
                     }
                     @include mobile{
                         display: flex;
                         flex-wrap:wrap;
-                        width: 10rem;
                         height: 2rem;
+                        width: 90%;
                     }
                 }
                 .campo-msje{
